@@ -54,7 +54,7 @@
   ** 온라인 트랜잭션을 주로 처리하는 앱에서는 평균 99% 히트율을 달성해야 함
   - 물리적 I/O = 논리적I/O x (100-BCHR) 이므로 결과적으로 논리적 I/O를 줄여야 함
 
-### > 1.36 Single Block I/O vs Multiblock I/O
+> ### 1.36 Single Block I/O vs Multiblock I/O
   - 데이터 모두를 캐시에 적재할 수 없음. 비용,기술적 한계로 일부만 캐시에 적재해서 읽을 수 있음
 #### <> Single Block I/O
   - 한번에 한 블록씩 요청해서 메모리에 적재하는 방식
